@@ -1,0 +1,3 @@
+Note:
+	• 2D Sky FREE contains low-quality textures.
+	• For high-quality textures, please visit full version at https://www.assetstore.unity3d.com/en/#!/content/21555

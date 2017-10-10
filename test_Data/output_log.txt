@@ -1,0 +1,46 @@
+Initialize engine version: 5.6.3p1 (9c92e827232b)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   Intel
+    VRAM:     2111 MB
+    Driver:   22.20.16.4708
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\DONGHYUN\Documents\Final_Boys_Fishing\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\DONGHYUN\Documents\Final_Boys_Fishing\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\DONGHYUN\Documents\Final_Boys_Fishing\test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\DONGHYUN\Documents\Final_Boys_Fishing\test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\DONGHYUN\Documents\Final_Boys_Fishing\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\DONGHYUN\Documents\Final_Boys_Fishing\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\DONGHYUN\Documents\Final_Boys_Fishing\test_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\DONGHYUN\Documents\Final_Boys_Fishing\test_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\DONGHYUN\Documents\Final_Boys_Fishing\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\DONGHYUN\Documents\Final_Boys_Fishing\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\DONGHYUN\Documents\Final_Boys_Fishing\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\DONGHYUN\Documents\Final_Boys_Fishing\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\DONGHYUN\Documents\Final_Boys_Fishing\test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\DONGHYUN\Documents\Final_Boys_Fishing\test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\DONGHYUN\Documents\Final_Boys_Fishing\test_Data\Managed\2D Sky FREE.dll (this message is harmless)
+Loading C:\Users\DONGHYUN\Documents\Final_Boys_Fishing\test_Data\Managed\2D Sky FREE.dll into Unity Child Domain
+Platform assembly: C:\Users\DONGHYUN\Documents\Final_Boys_Fishing\test_Data\Managed\GETween.dll (this message is harmless)
+Loading C:\Users\DONGHYUN\Documents\Final_Boys_Fishing\test_Data\Managed\GETween.dll into Unity Child Domain
+Platform assembly: C:\Users\DONGHYUN\Documents\Final_Boys_Fishing\test_Data\Managed\GUIAnimatorFREE.dll (this message is harmless)
+Loading C:\Users\DONGHYUN\Documents\Final_Boys_Fishing\test_Data\Managed\GUIAnimatorFREE.dll into Unity Child Domain
+- Completed reload, in  0.407 seconds
+Platform assembly: C:\Users\DONGHYUN\Documents\Final_Boys_Fishing\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\DONGHYUN\Documents\Final_Boys_Fishing\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.719465 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.956476 ms
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 355.
+Total: 0.516266 ms (FindLiveObjects: 0.024746 ms CreateObjectMapping: 0.019199 ms MarkObjects: 0.184746 ms  DeleteObjects: 0.286719 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1c78 -> priority: 1 
+  Thread -> id: 2270 -> priority: 1 

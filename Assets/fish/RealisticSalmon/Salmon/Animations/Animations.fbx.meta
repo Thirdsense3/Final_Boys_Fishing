@@ -1,0 +1,362 @@
+fileFormatVersion: 2
+guid: 8885677d2838e0b489997bf5ad671c3e
+timeCreated: 1495052366
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Body1
+    100004: Body2
+    100006: Body3
+    100008: Fin_L
+    100010: Fin_L_001
+    100012: Fin_L_002
+    100014: Fin_R
+    100016: Fin_R_001
+    100018: Fin_R_002
+    100020: Head
+    100022: Skeleton
+    100024: Tail1
+    100026: Tail2
+    100028: TopFin
+    100030: TopFin_001
+    100032: TopFin_002
+    400000: //RootNode
+    400002: Body1
+    400004: Body2
+    400006: Body3
+    400008: Fin_L
+    400010: Fin_L_001
+    400012: Fin_L_002
+    400014: Fin_R
+    400016: Fin_R_001
+    400018: Fin_R_002
+    400020: Head
+    400022: Skeleton
+    400024: Tail1
+    400026: Tail2
+    400028: TopFin
+    400030: TopFin_001
+    400032: TopFin_002
+    7400000: Flopping
+    7400002: IdlePose
+    7400004: Swimming
+    7400006: Swimming2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Flopping
+      takeName: Flopping
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Body2
+        weight: 1
+      - path: Skeleton/Body2/Body1
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_L
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_L/Fin_L_001
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_L/Fin_L_001/Fin_L_002
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_R
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_R/Fin_R_001
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_R/Fin_R_001/Fin_R_002
+        weight: 1
+      - path: Skeleton/Body2/Body1/Head
+        weight: 1
+      - path: Skeleton/Body2/TopFin
+        weight: 1
+      - path: Skeleton/Body2/TopFin/TopFin_001
+        weight: 1
+      - path: Skeleton/Body2/TopFin/TopFin_001/TopFin_002
+        weight: 1
+      - path: Skeleton/Body3
+        weight: 1
+      - path: Skeleton/Body3/Tail1
+        weight: 1
+      - path: Skeleton/Body3/Tail1/Tail2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: IdlePose
+      takeName: IdlePose
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Body2
+        weight: 1
+      - path: Skeleton/Body2/Body1
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_L
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_L/Fin_L_001
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_L/Fin_L_001/Fin_L_002
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_R
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_R/Fin_R_001
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_R/Fin_R_001/Fin_R_002
+        weight: 1
+      - path: Skeleton/Body2/Body1/Head
+        weight: 1
+      - path: Skeleton/Body2/TopFin
+        weight: 1
+      - path: Skeleton/Body2/TopFin/TopFin_001
+        weight: 1
+      - path: Skeleton/Body2/TopFin/TopFin_001/TopFin_002
+        weight: 1
+      - path: Skeleton/Body3
+        weight: 1
+      - path: Skeleton/Body3/Tail1
+        weight: 1
+      - path: Skeleton/Body3/Tail1/Tail2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Swimming
+      takeName: Swimming
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Body2
+        weight: 1
+      - path: Skeleton/Body2/Body1
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_L
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_L/Fin_L_001
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_L/Fin_L_001/Fin_L_002
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_R
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_R/Fin_R_001
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_R/Fin_R_001/Fin_R_002
+        weight: 1
+      - path: Skeleton/Body2/Body1/Head
+        weight: 1
+      - path: Skeleton/Body2/TopFin
+        weight: 1
+      - path: Skeleton/Body2/TopFin/TopFin_001
+        weight: 1
+      - path: Skeleton/Body2/TopFin/TopFin_001/TopFin_002
+        weight: 1
+      - path: Skeleton/Body3
+        weight: 1
+      - path: Skeleton/Body3/Tail1
+        weight: 1
+      - path: Skeleton/Body3/Tail1/Tail2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Swimming2
+      takeName: Swimming2
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Body2
+        weight: 1
+      - path: Skeleton/Body2/Body1
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_L
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_L/Fin_L_001
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_L/Fin_L_001/Fin_L_002
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_R
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_R/Fin_R_001
+        weight: 1
+      - path: Skeleton/Body2/Body1/Fin_R/Fin_R_001/Fin_R_002
+        weight: 1
+      - path: Skeleton/Body2/Body1/Head
+        weight: 1
+      - path: Skeleton/Body2/TopFin
+        weight: 1
+      - path: Skeleton/Body2/TopFin/TopFin_001
+        weight: 1
+      - path: Skeleton/Body2/TopFin/TopFin_001/TopFin_002
+        weight: 1
+      - path: Skeleton/Body3
+        weight: 1
+      - path: Skeleton/Body3/Tail1
+        weight: 1
+      - path: Skeleton/Body3/Tail1/Tail2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 70
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

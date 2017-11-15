@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: 052fd7d5becc3d04b9b3788a1d9fc3a5
+timeCreated: 1483812189
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Circle
+    100002: Circle.001
+    100004: Circle.002
+    100006: //RootNode
+    100008: Circle.003
+    100010: Circle.000
+    100012: Circle.004
+    100014: Armature
+    100016: Bone
+    100018: Bone.001
+    100020: Bone.002
+    100022: Bone.003
+    100024: Bone.004
+    100026: Bone.005
+    100028: Bone.005_end
+    100030: Bone.006
+    100032: Bone.007
+    100034: Bone.008
+    100036: Bone.009
+    100038: Bone.010
+    100040: Bone.011
+    100042: Bone.012
+    100044: Bone.013
+    400000: Circle
+    400002: Circle.001
+    400004: Circle.002
+    400006: //RootNode
+    400008: Circle.003
+    400010: Circle.000
+    400012: Circle.004
+    400014: Armature
+    400016: Bone
+    400018: Bone.001
+    400020: Bone.002
+    400022: Bone.003
+    400024: Bone.004
+    400026: Bone.005
+    400028: Bone.005_end
+    400030: Bone.006
+    400032: Bone.007
+    400034: Bone.008
+    400036: Bone.009
+    400038: Bone.010
+    400040: Bone.011
+    400042: Bone.012
+    400044: Bone.013
+    2300000: Circle
+    2300002: Circle.001
+    2300004: Circle.002
+    2300006: Circle.003
+    2300008: //RootNode
+    2300010: Circle.000
+    2300012: Circle.004
+    3300000: Circle
+    3300002: Circle.001
+    3300004: Circle.002
+    3300006: Circle.003
+    3300008: //RootNode
+    3300010: Circle.000
+    3300012: Circle.004
+    4300000: Circle.002
+    4300002: Circle.001
+    4300004: Circle
+    4300006: Circle.003
+    4300008: Circle.000
+    4300010: Circle.004
+    9500000: //RootNode
+    13700000: Circle.004
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 78
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d9bb611e9d73b9f4085f98b4a66d3319
+labels:
+- Stone
+- Fence
+- Wall
+- Post
+- Pillar
+timeCreated: 18446744011573954816
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

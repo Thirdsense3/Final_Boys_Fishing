@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class Fish : MonoBehaviour 
@@ -69,10 +70,12 @@ public class Fish : MonoBehaviour
 		if(distanceToPlayer < 0.1f)
 		{
             Debug.Log("물고기 잡음");
+            
 			transform.GetChild(1).SetParent(null);
 			Player.Instance.UpdateStage(PlayStage.Cast);
 			//Player.Instance.Spinning.Catching = false;
 			Destroy(gameObject);
+            SceneManager.LoadScene("MainGame");
             //Instantiate(TargetFishes[i].fish.gameObject, transform.position, transform.rotation) as GameObject;
 		}
 	

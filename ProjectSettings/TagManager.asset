@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Fire
+  - Water
+  - Boat
+  - Rabbit
   layers:
   - Default
   - TransparentFX

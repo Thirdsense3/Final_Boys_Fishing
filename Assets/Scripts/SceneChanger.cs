@@ -26,5 +26,11 @@ public class SceneChanger : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
+
+        if (collision.transform.tag == "Rabbit")
+        {
+            Debug.Log("collision");
+            Application.Quit();
+        }
     }
 }

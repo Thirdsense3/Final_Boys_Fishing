@@ -903,8 +903,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 503026325}
-  m_LocalRotation: {x: -0.4294965, y: 0.036021136, z: 0.017149342, w: 0.9021869}
-  m_LocalPosition: {x: -1.1058174, y: -26.93657, z: -13.826351}
+  m_LocalRotation: {x: -0.1736482, y: 0, z: 0, w: 0.9848078}
+  m_LocalPosition: {x: 0, y: -4.59, z: -6.47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2163,7 +2163,7 @@ MonoBehaviour:
   Player: {fileID: 631191527}
   Line: {fileID: 620102361}
   Bait: {fileID: 549421272}
-  CatchedFish: {fileID: 0}
+  CatchedFish: {fileID: 1960728205}
   LineStart: {fileID: 250192935}
   Casted: 1
   Catching: 1
@@ -3181,6 +3181,12 @@ Transform:
   m_Father: {fileID: 165850975}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1960728205 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114577106021690066, guid: 3f9fddb7e4676384d84afa2c376d9523,
+    type: 2}
+  m_PrefabInternal: {fileID: 904412454}
+  m_Script: {fileID: 11500000, guid: 4c0073f521e1948438d620cb10f169d1, type: 3}
 --- !u!1 &1990194332
 GameObject:
   m_ObjectHideFlags: 0

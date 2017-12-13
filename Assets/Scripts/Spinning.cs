@@ -40,6 +40,7 @@ public class Spinning : MonoBehaviour
 
 	public void Cast( Vector3 point )
 	{
+        Debug.Log("Spinning Cast");
 		Bait.transform.position = point;
 		Line.Regenerate();
 		Casted = true;
@@ -56,17 +57,19 @@ public class Spinning : MonoBehaviour
 	float time = 0;
 	void Update()
 	{
+        Debug.Log(Casted + " " + Catching);
 		if(Casted)
 		{
 			Line.Regenerate();
 			float Distance = Vector3.Distance(new Vector3(LineStart.position.x,Bait.transform.position.y,LineStart.position.z),Bait.transform.position);
 			if(Distance<1)
 			{
+                Debug.Log("PlayerCasting");
 				Player.UpdateStage(PlayStage.Cast);
 				Casted = false;
 			}
 
-			Bait.Cast(Input.GetMouseButton(0));
+			Bait.Cast(Input.GetMouseButton(0)); //0-왼쪽, 1-오른쪽, 2//휠
 			if(Input.GetMouseButton(0))
 			{
 				

@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
 
 	void Update () 
 	{
+        Debug.Log("Player State :" + Stage);
 		switch(Stage)
 		{
 			case PlayStage.Idle:
@@ -45,6 +46,7 @@ public class Player : MonoBehaviour
 	{
 		if(Input.GetMouseButton(1))
 		{
+            Debug.Log("ThrowBait");
 			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 			RaycastHit hit;
 			if(Physics.Raycast(ray, out hit))
@@ -57,6 +59,7 @@ public class Player : MonoBehaviour
 		}
 		if(Input.GetMouseButtonUp(1))
 		{
+            Debug.Log("GetRightMouse");
 			Spinning.Cast(Marker.transform.position);
 			UpdateStage(PlayStage.Pull);
 		}

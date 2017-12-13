@@ -3,27 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneChanger : MonoBehaviour {
+public class SceneChanger : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.C)) // c 키 누르면 씬 변경
+        {
+            SceneManager.LoadScene("Fishing2");
 
-        if (Input.GetKeyDown(KeyCode.C))
-            {
-                SceneManager.LoadScene("Fishing2");
-            }
+            Cursor.lockState = CursorLockMode.None; // 마우스 커서 다시 보이게 하기
+            Cursor.visible = true;
         }
+    }
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.transform.tag == "Boat")
+        if (collision.transform.tag == "Boat") // 캐릭터가 보트와 충돌하면 씬 변경
         {
             SceneManager.LoadScene("Fishing2");
+
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
     }
 }

@@ -9,11 +9,5 @@ EditorBuildSettings:
     path: Assets/Scenes/MainGame.unity
     guid: 90c14283d5148994687a910815492d0a
   - enabled: 1
-    path: Assets/Scenes/InFishing.unity
-    guid: 7e79ed7e6db70304aae47ee6ac5dd0ee
-  - enabled: 1
-    path: Assets/Scenes/Fishing.unity
-    guid: cae8b1ced64529c449bee594b0f24455
-  - enabled: 1
     path: Assets/Scenes/Fishing2.unity
     guid: 25623748faf7192409450353c17b7d73

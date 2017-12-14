@@ -26,7 +26,7 @@ public class Player : MonoBehaviour
 			case PlayStage.Idle:
 				break;
 			case PlayStage.Cast:
-				Casting();
+				Casting(); //낚시를 시작했을때 Casting 함수 실행
 			Spinning.Catching = false;
 			Spinning.Bait.Cast(false);
 				break;
@@ -44,24 +44,24 @@ public class Player : MonoBehaviour
 
 	void Casting()
 	{
-		if(Input.GetMouseButton(1))
+		if(Input.GetMouseButton(1)) //오른쪽 마우스 눌렀을 때 미끼를 던진다
 		{
             Debug.Log("ThrowBait");
-			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition); //마우스 커서의 위치에 ray
 			RaycastHit hit;
-			if(Physics.Raycast(ray, out hit))
+			if(Physics.Raycast(ray, out hit)) //ray 발사하여 충돌체에 부딪힐 경우
 			{
-				if(hit.collider.tag == "Water")
+				if(hit.collider.tag == "Water") //ray가 닿은 곳이 물일 경우
 				{
-					Marker.transform.position = hit.point;
+					Marker.transform.position = hit.point; //찌의 위치가 ray의 히트 포인트
 				}
 			}
 		}
-		if(Input.GetMouseButtonUp(1))
+		if(Input.GetMouseButtonUp(1)) //오른쪽 마우스 땠을 때
 		{
-            Debug.Log("GetRightMouse");
-			Spinning.Cast(Marker.transform.position);
-			UpdateStage(PlayStage.Pull);
+            Debug.Log("GetRightMouseUp");
+			Spinning.Cast(Marker.transform.position); // 찌의 위치가 낚시 포인트
+			UpdateStage(PlayStage.Pull); // 낚시대 당기는 상태
 		}
 	}
 

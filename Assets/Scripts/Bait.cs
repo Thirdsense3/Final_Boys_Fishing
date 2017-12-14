@@ -37,6 +37,7 @@ public class Bait : MonoBehaviour
 	{
 		if(BaitActive)
 		{
+            Debug.Log(m_currentUpdateStep + " " + m_StepTemp);
 			if(Time.time > m_StepTemp + m_currentUpdateStep) 
 			{
 				for(int i = 0; i<TargetFishes.Count; i++)
